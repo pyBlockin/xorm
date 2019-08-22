@@ -1,0 +1,56 @@
+hash: 8c72f2b1c92b9234eb1e5b8d844c5192d78b1c17a07bd04fa30105fe65edd2db
+updated: 2019-08-22T15:06:37.117702+08:00
+imports:
+- name: github.com/go-sql-driver/mysql
+  version: 72cd26f257d44c1114970e19afddcd812016007e
+- name: github.com/go-xorm/xorm
+  version: ce79b1cf28a4a457a730212fc1bec616a8db4db9
+- name: github.com/lib/pq
+  version: 3427c32cb71afc948325f299f040e53c1dd78979
+  subpackages:
+  - oid
+  - scram
+- name: github.com/mattn/go-sqlite3
+  version: b612a2feea6aa87c6d052d9086572551df06497e
+- name: google.golang.org/appengine
+  version: fb139bde60fa77cede04f226b4d5a3cf68dcce27
+  subpackages:
+  - cloudsql
+- name: xorm.io/builder
+  version: 5175e98d9e97da33b5b8234760b151d867cb2620
+- name: xorm.io/core
+  version: 25c56ece6dfd7d0cf0f54a9a324117e9e2f37c8f
+testImports:
+- name: cloud.google.com/go
+  version: 0b8cc444bbce669684dc191eab8b4fef6a18268e
+  subpackages:
+  - civil
+- name: github.com/davecgh/go-spew
+  version: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+  subpackages:
+  - spew
+- name: github.com/denisenkom/go-mssqldb
+  version: 44cdfe8d8ba9a7322b38cd8fbb0f2cb445e65a69
+  subpackages:
+  - internal/cp
+  - internal/querytext
+- name: github.com/pmezard/go-difflib
+  version: 5d4384ee4fb2527b0a1256a821ebfc92f91efefc
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: 221dbe5ed46703ee255b1da0dec05086f5035f62
+  subpackages:
+  - assert
+- name: github.com/ziutek/mymysql
+  version: e08c2f35356576b3c3690c252fe5dca728ae9292
+  subpackages:
+  - godrv
+  - mysql
+  - native
+- name: golang.org/x/crypto
+  version: 60c769a6c58655dab1b9adac0d58967dd517cfba
+  subpackages:
+  - md4
+- name: gopkg.in/yaml.v2
+  version: 51d6538a90f86fe93ac480b35f37b2be17fef232

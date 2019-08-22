@@ -1,0 +1,10 @@
+package: xorm
+import:
+- package: github.com/go-sql-driver/mysql
+  version: ^1.4.1
+- package: github.com/go-xorm/xorm
+  version: ^0.7.6
+- package: xorm.io/builder
+  version: ^0.3.5
+- package: xorm.io/core
+  version: ^0.7.0
