@@ -7,7 +7,6 @@ package xorm
 import (
 	"fmt"
 	"reflect"
-	"strings"
 
 	"xorm.io/core"
 )
